@@ -1,0 +1,8 @@
+#把要跑的图片放到sample中
+./scripts/test_any.sh 3 checkpoint/model.ckpt-146343 /media/scut214/file/HLG/Chinese_Recognition/pixel_link-master/samples/
+
+
+#跑测试集
+ ./scripts/test_any.sh 3 checkpoint/model.ckpt-146343 ../../intermediate_file/padding_images_to_detection
+
+/media/scut214/file/HLG/Chinese_Recognition/dataset
